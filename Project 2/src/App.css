@@ -1,0 +1,37 @@
+
+
+@media (max-width: 500px) {
+  .App{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 450px){
+  .App{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px){
+  .App{
+    max-width: 325px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 350px){
+  .App{
+    max-width: 275px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
