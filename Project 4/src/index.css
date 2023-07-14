@@ -1,0 +1,171 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+.background {
+  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+}
+
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+
+.spinner {
+   position: relative;
+   width: 56px;
+   height: 56px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.spinner::before,
+.spinner::after {
+   border: 6.7px solid #474bff;
+   border-radius: 50%;
+   position: absolute;
+   content: '';
+   display: block;
+}
+
+.spinner::before {
+   width: 33.6px;
+   height: 33.6px;
+   border-bottom-color: transparent;
+   border-left-color: transparent;
+   animation: spinner-1o3y8q 0.75s infinite linear reverse;
+}
+
+.spinner::after {
+   animation: spinner-1o3y8q 0.5s infinite linear;
+   height: 56px;
+   width: 56px;
+   border-right-color: transparent;
+   border-top-color: transparent;
+}
+
+@keyframes spinner-1o3y8q {
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+
+@media (max-width: 1000px){
+   .random,.tag{
+      width: 60%;
+   }
+}
+
+@media (max-width: 800px){
+   .random img{
+      width: 300px;
+   }
+
+   .random h1{
+      font-size: 20px;
+   }
+   .random button{
+      font-size: 14px;
+   }
+   .random button{
+      width:150px
+   }
+
+   .tag button{
+      width: 150px;
+   }
+
+   .tag img{
+      width: 300px;
+   }
+
+   .tag h1{
+      font-size: 20px;
+   }
+   .tag button{
+      font-size: 14px;
+   }
+
+   .app h1{
+      font-size: 22px;
+   }
+}
+
+@media (max-width:600px){
+
+   .random{
+      width: 70%;
+   }
+   .tag{
+      width: 70%;
+   }
+
+   .random img{
+      width: 250px;
+   }
+
+   .tag img{
+      width: 250px;
+   }
+   .random button{
+      width:100px
+   }
+   .tag button{
+      width: 100px;
+   }
+}
+
+@media (max-width:450px){
+   .random{
+      width: 80%;
+   }
+
+   .tag{
+      width: 80%;
+   }
+
+   .random img{
+      width: 225px;
+   }
+
+   .random h1{
+      font-size: 18px;
+   }
+
+   .tag h1{
+      font-size: 18px;
+   }
+   .random button{
+      font-size: 14px;
+   }
+   .random button{
+      width:100px
+   }
+   .tag img{
+      width: 225px;
+   }
+   .tag button{
+      width:100px
+   }
+
+   .tag input{
+      width:100px;
+      font-size: 14px;
+   }
+}
+
+@media (max-width: 350px){
+   .random{
+      width: 85%;
+   }
+
+   .tag{
+      width: 85%;
+   }
+}
